@@ -15,7 +15,5 @@
 | Logistic regression | Naive Bayes |
 | ------------------- | ----------- |
 | No independence assumption | Independence assumption |
-| ------------------- | ----------- |
 | Weights trained jointly | Weights trained independently |
-| ------------------- | ----------- |
 | Better calibrated probabilities | Faster to train + Less likely to overfit |
