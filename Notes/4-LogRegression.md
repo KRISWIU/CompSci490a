@@ -20,3 +20,6 @@
 * OverFitting: Penalize large weights 
     * L2 regularization: 平方
     * L1 regularization: 绝对值
+
+
+f(x) = e^(-ax)/(1+e^(-ax))
