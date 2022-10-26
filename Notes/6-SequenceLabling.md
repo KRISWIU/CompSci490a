@@ -13,4 +13,5 @@
 * **Name Entity Recogition**(NER Tagging): 找到句子里的名字部分
     * 名字一般分成：人，地方，组织，地理
     * BIOES tagging
+    * ![BIOES](https://github.com/KRISWIU/CompSci490a/blob/6829e45493075d749e68f7f4d0242b95e7f92e9c/Notes/imgs/BIOES.png)
     
