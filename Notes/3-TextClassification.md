@@ -29,3 +29,8 @@
 * Improving Model:
     * Binarization: Presence of a word >>>> How many times a word occurs
     * (Log) Likelyhood Ratio
+
+shiji1 0 1 1 0 0
+yuce 1 1 0 1 1 0
+tp 2 fp 1
+fn 2 
