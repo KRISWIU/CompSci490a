@@ -22,6 +22,10 @@
     * Accuracy = (TP+TN)/(ALL)
     * Precision = (TP)/(TP+FP)
     * Recall = (TP)/(TP+FN)
+    * False Positive (简称FP)：判断为正，但是判断错了。（实际为负）
+    * False Negative (简称FN)：判断为负，但是判断错了。（实际为正）
+    * True Positive (简称TP)：判断为正，且实际为正。
+    * True Negative (简称TN)：判断为负，且实际为负。
 * Improving Model:
     * Binarization: Presence of a word >>>> How many times a word occurs
     * (Log) Likelyhood Ratio
