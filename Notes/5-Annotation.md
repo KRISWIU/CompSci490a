@@ -10,7 +10,7 @@
     * k = (p_0 - p_e) / (1 - p_e)
 * **Fleiss’s Kappa**:  multiple annotators, who may evaluate different items +  Each item is annotated the same number of times
     * k = (p_0 - p_e) / (1 - p_e)
-    * ![Fleiss's_Kappa](https://github.com/KRISWIU/CompSci490a/blob/49a51920d7adb5f83521b430844c7a9dbe98e53c/Review for mid/imgs/FleissKappa.png)
+    * ![Fleiss's_Kappa](https://github.com/KRISWIU/CompSci490a/blob/7a8729d9ab5bc454c9ce90f45f1476607a4b5dfd/Notes/imgs/FleissKappa.png)
 * Krippendorff’s Alpha 信度检验
     * about real-valued labels like Likert ratings and ordinal values 处理那种没有分类的标签
     * 应该是不会考计算这个东西
