@@ -13,7 +13,7 @@
     * Perplexity: PP(W) = (1/Pr(w1,w2,...,wn))^(1/n)
 * Additive Smoothing: avoid zero probabilities
     * Pr (wi) ≈ (𝑓(𝑤𝑖) + 𝛼)/(𝑁 + 𝑉)   
-    * Pr (𝑤𝑛|𝑤𝑛−1) ≈ (𝑓(𝑤𝑛−1 𝑤𝑛) + 𝛼)/(𝑓(𝑤𝑛−1) + 𝛼 ∙ V)
+    * Pr (𝑤𝑛|𝑤𝑛−1) ≈ (𝑓(𝑤𝑛−1|𝑤𝑛) + 𝛼)/(𝑓(𝑤𝑛−1) + 𝛼 ∙ V)
 
 
 i have lunch i eat
@@ -21,3 +21,11 @@ P(i) = 2/5
 p(have|i) = 1/2
 P(lunch | i have) = 1
 P(i have lunch) = 1/5
+
+i, good, bad, it
+pos: good, it
+neg: bad, i
+
+i like it
+P(i like it | pos) = p(i|pos) * p(like|pos) * p(it|pos)
+                   = p(w1|pos) * p(w2|pos) ... 
